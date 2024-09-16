@@ -1,0 +1,65 @@
+@font-face {
+    font-family: deutschgothic;
+    src: url("fonts/deutschgothic.ttf");
+}
+
+@font-face {
+    font-family: christmasscriptc;
+    src: url("fonts/christmasscriptc.ttf");
+}
+
+@font-face {
+    font-family: intro;
+    src: url("fonts/intro.ttf");
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #f8fff0;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+}
+
+.links:hover {
+    text-decoration: underline;
+}
+
+.list {
+    list-style: none;
+}
+
+.description-one {
+    text-align: center;
+    font-family: deutschgothic;
+}
+
+.description-two {
+    text-align: justify;
+    font-family: christmasscriptc;
+}
+
+.description-three span {
+    font-weight: bold;
+}
+
+.description-three {
+    text-align: right;
+    font-family: intro;
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    border-radius: 20px;
+}
